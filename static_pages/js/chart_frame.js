@@ -11,7 +11,7 @@ catch(e)
 }
 
 let g_LB_Data = {};
-//let g_DOGE_BTC_Price = 0;
+let g_DOGE_BTC_Price = 100000;
 let g_CurrentPair = utils.DEFAULT_PAIR;
 let g_currentChartPeriod = 24;
 
@@ -203,6 +203,7 @@ function drawChart(chartData)
                 maxZoomIn: 4.0
         },*/
         seriesType: 'candlesticks',
+        backgroundColor: 'none',
         series: {0: {type: 'bars', targetAxisIndex: 1, color: '#eaeaea'}}
     };
     
