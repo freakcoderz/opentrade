@@ -64,7 +64,7 @@ exports.ShowMainStaffPage = function(req, res)
     try {
         utils.GetSessionStatus(req, status => {
             exports.GetUserRole(status.id, info => {
-                if (info.role != 'Administrator' || info.role != 'Support')
+                if (info.role != 'root' || info.role != 'Support')
                 {
                     utils.render(res, 'pages/index', {path : url.parse(req.url, true).path, status : status});
                     return;

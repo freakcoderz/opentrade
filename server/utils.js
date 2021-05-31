@@ -635,7 +635,7 @@ exports.LoadPrivateJS = function(req, res, path)
                 return responseFile('./views/pages'+path, res);
             
             admin_utils.GetUserRole(status.id, info => {
-                if (info.role == 'Support' && path.indexOf('staff.js') > 0 || info.role == 'Administrator' && path.indexOf('staff.js') > 0)
+                if (info.role == 'Support' && path.indexOf('staff.js') > 0 || info.role == 'root' && path.indexOf('staff.js') > 0)
                     return responseFile('./views/pages'+path, res);
                 if (info.role == 'Chat-admin' && path.indexOf('chatadmin.js') > 0)
                     return responseFile('./views/pages'+path, res);
