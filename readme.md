@@ -1,6 +1,6 @@
 # OpenTrade is the best opensource cryptocurrency exchange!
 
-Live version: https://frea.exchange
+Live version: https://freak.exchange
 
 Step-by-step install instructions:
 
