@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <%- include ../partials/head %>
+  <body>
+
+    <%- include ../partials/header %>
+
+
+<div class="featured-bg-1" id="about"><br><br>
+    <div class="container pt-2">
+      <div class='row'>
+        <div class="col-md-12">
+          <p><h2>Frequently Asked Questions</h2>
+          </p>
+            <div class="card w-100">
+              <div class="card-body">
+		<h2>General Questions</h2>
+                <p class="card-text">
+		<ol>
+			<li><b>Q</b>: Can I buy on this exchange with fiat (paypal, credit card)? <br><b>A</b>: No, we do not have the license and never will</li>
+			<li><b>Q</b>: I placed an order, why am I not seeing my coins?<br><b>A</b>: This usually means you placed a limit order. You will get your coins if someone sells to you at the price you placed the order for.</li>
+			<li><b>Q</b>: My coins haven't arrived<br><b>A</b>: Check if the required confirmations have passed. If so, contact support.</li>
+			<li><b>Q</b>: How much should I place my order for? <br><b>A</b>: We don't care. It is up to you to determine if you want to place a market order (see below) or a limit order (see below)</li>
+			<li><b>Q</b>: How do I buy RAT? <br><b>A</b>: See How to Place Orders below.</li>
+			<li><b>Q</b>: "I bought RAT and it hasn't shown up in my account" <br><b>A</b>: See How to Place Orders below.</li>
+			<!--<li><b>Q</b>: <br><b>A</b>:</li>-->
+		</ol>
+                </p>  
+                <h2>How to Deposit</h2>
+                <p class="card-text">
+		<ol>
+		<li>Sign in, or register and then sign in.</li>
+		<li>Click on your name in the upper right-hand corner and click wallet.</li>
+		<li>Click on Deposit on the coin you want to deposit.</li>
+		<li>Click the clipboard, or highlight the address and copy it</li>
+		<li>Paste the address in the wallet or site you are sending coins from.</li>
+		<li>Click History to check how many confirmations you have versus how many are required.</li>
+		<li>Once the confirmations meets or exceeds the required, you should have your coins to use. If not, contact support.</li>
+		</ol>
+                </p>   
+		<h2>How to Withdraw</h2>
+                <p class="card-text">
+		<ol>
+		<li>Sign into your account</li>
+		<li>Click on your name in the upper right-hand corner and click wallet.</li>
+		<li>Click on Withdraw on the coin you want to deposit.</li>
+		<li>Enter your wallet address. <b>Double check this. We cannot recover coins sent to the wrong address</b></li>
+		<li>Enter the amount to withdraw. Amount <b>must</b> be your total minus the fee/minimum found on the <a href="https://freak.exchange/fees">fees</a> page</li>
+		<li>Enter your password and click confirm</li>
+		<li>You will receive an email to confirm your withdraw. If you get any errors with this, check #5 above.</li>
+                </ol>
+		</p>  
+		<h2>How to Place Market Orders</h2>
+                <p class="card-text">
+		<ol>
+		<li>Sign into your account</li>
+		<li>Click the market list in the Market box (DOGE, FREAK, RAT)</li>
+		<li>Click the coin you want to buy</li>
+		<li>In the <b>Sell orders</b> box, click the first/top price. The price has now changed in the <b>Buy</b> box</li>
+		<li>Enter the amount you want to buy or click your balance to spend your whole balance.</li>
+		<li>Click the buy button. Note, if you want to buy more that the lowest sell has, the remainder or your order becomes a limit order and you will see it in the <b>Buy orders</b> box.</li>
+                </ol>
+                </p> 
+		<h2>How to Place Limit Orders</h2>
+                <p class="card-text">
+		<ol>
+		<li>Sign into your account</li>
+		<li>Click the market list in the Market box (DOGE, FREAK, RAT)</li>
+		<li>Click the coin you want to buy</li>
+		<li>Enter the price you are willing to pay for each coin you want to buy in the <b>Buy</b> box under price.</li>
+		<li>Enter the amount you want to buy or click your balance to spend your whole balance.</li>
+		<li>Click the buy button. Note, <b>YOU ARE NOT BUYING COINS!</b>. A limit order is an order so your order will sit until someone sells to you are the price you entered.</li>
+                </ol>
+                </p>  
+            
+              </div>
+            </div>
+        </div>
+      </div>
+ </div><br><br><br><br>
+    </div> <!-- /container -->
+
+    <%- include ../partials/footer %>
+    <script src='/js/support.js'></script>
+  </body>
+</html>

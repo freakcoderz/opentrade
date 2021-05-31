@@ -1,0 +1,16 @@
+# SQLite Database
+*.db-journal
+*.db
+
+# Node Modules
+node_modules/
+
+# Certificates
+*.key
+*.crt
+
+# Others
+private_constants/
+*.log
+*.py
+*.out
