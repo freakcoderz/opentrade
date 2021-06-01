@@ -10,7 +10,7 @@
     "express": "latest",
     "ws": "latest",
     "sendmail": "latest",
-    "sqlite3": "latest",
+    "better-sqlite3": "latest",
     "ejs": "latest",
     "cors": "latest"
   }

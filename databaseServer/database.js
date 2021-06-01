@@ -1,6 +1,6 @@
 'use strict';
 
-var sqlite3 = require('sqlite3').verbose();
+var sqlite3 = require('better-sqlite3').verbose();
 
 const g_utils = require('./utils');
 

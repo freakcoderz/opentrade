@@ -16,7 +16,7 @@ function UpdatePageWithRole()
   if (!g_role || g_role == 'User')
     return;
   
-  if (g_role == 'Administrator')
+  if (g_role == 'root')
   {
     $('.del_message_button').show();
     $('.del_order_button').show();
